@@ -1,0 +1,27 @@
+Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Second_job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Second_job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ddarshi97/shellscripts.git # timeout=10
+Fetching upstream changes from https://github.com/ddarshi97/shellscripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ddarshi97/shellscripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a9468def730c43f28b5a51b91a957380282c3cd9 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a9468def730c43f28b5a51b91a957380282c3cd9 # timeout=10
+Commit message: "Update script4.sh"
+ > git rev-list --no-walk a9468def730c43f28b5a51b91a957380282c3cd9 # timeout=10
+[Second_job] $ /bin/sh -xe /tmp/jenkins184305726427263957.sh
++ ls
+shellscripts
++ sh shellscripts/script4.sh 5 6
+shellscripts/script4.sh
+Enter the 1st number
+Enter th 2nd number
+The sum of 2 numbers is 11
+Finished: SUCCESS

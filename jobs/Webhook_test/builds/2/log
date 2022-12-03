@@ -1,0 +1,28 @@
+Started by GitHub push by ddarshi97
+Running as SYSTEM
+Building remotely on [8mha:////4BQ8wWABXNrIvdjJgBFYnCcb22Ai2fCSVQccw3Lj45h8AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6xTmJZakl5fkA7628dscAAAA=[0mslavetwo in workspace /home/slavetwo/workspace/Webhook_test
+The recommended git tool is: NONE
+using credential slavetwo
+ > git rev-parse --resolve-git-dir /home/slavetwo/workspace/Webhook_test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ddarshi97/shellscripts.git # timeout=10
+Fetching upstream changes from https://github.com/ddarshi97/shellscripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/ddarshi97/shellscripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision eb285c081c2057771efe103b77db2ad52e68f02f (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f eb285c081c2057771efe103b77db2ad52e68f02f # timeout=10
+Commit message: "Update script1.sh"
+ > git rev-list --no-walk a9468def730c43f28b5a51b91a957380282c3cd9 # timeout=10
+[Webhook_test] $ /bin/sh -xe /tmp/jenkins14182724770831999454.sh
++ ls
+shellscripts
++ sh shellscripts/script4.sh 5 6
+shellscripts/script4.sh
+Enter the 1st number
+Enter th 2nd number
+The sum of 2 numbers is 11
+Finished: SUCCESS

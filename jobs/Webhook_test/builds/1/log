@@ -1,0 +1,31 @@
+Started by user [8mha:////4H4gnmQFvYH3v35HNDxyJ+XMFb9qqUl+O6+1IqEziKIWAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZ+/dLi1CL9lJTEouKMTEtzANSk7V7EAAAA[0mDarshan Shivaram
+Running as SYSTEM
+Building remotely on [8mha:////4BQ8wWABXNrIvdjJgBFYnCcb22Ai2fCSVQccw3Lj45h8AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6xTmJZakl5fkA7628dscAAAA=[0mslavetwo in workspace /home/slavetwo/workspace/Webhook_test
+The recommended git tool is: NONE
+using credential slavetwo
+Cloning the remote Git repository
+Cloning repository https://github.com/ddarshi97/shellscripts.git
+ > git init /home/slavetwo/workspace/Webhook_test # timeout=10
+Fetching upstream changes from https://github.com/ddarshi97/shellscripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/ddarshi97/shellscripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ddarshi97/shellscripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a9468def730c43f28b5a51b91a957380282c3cd9 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a9468def730c43f28b5a51b91a957380282c3cd9 # timeout=10
+Commit message: "Update script4.sh"
+First time build. Skipping changelog.
+[Webhook_test] $ /bin/sh -xe /tmp/jenkins3958337800749663439.sh
++ ls
+shellscripts
++ sh shellscripts/script4.sh 5 6
+shellscripts/script4.sh
+Enter the 1st number
+Enter th 2nd number
+The sum of 2 numbers is 11
+Finished: SUCCESS

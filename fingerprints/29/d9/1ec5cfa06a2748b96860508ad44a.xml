@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-29 11:08:55.118 UTC</timestamp>
+  <md5sum>29d91ec5cfa06a2748b96860508ad44a</md5sum>
+  <fileName>Credential id=slavetwo name=slavetwo/******</fileName>
+  <usages>
+    <entry>
+      <string>Webhook_test</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

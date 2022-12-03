@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-12-02 16:11:34.134 UTC</timestamp>
+  <md5sum>48e78b259a8bda83d8288b4d018cb45c</md5sum>
+  <fileName>Credential id=stwo name=stwo/****** (deploy)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1670029153837</timestamp>
+      <nodeName>stwo</nodeName>
+      <timestamp0>1670027574673</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

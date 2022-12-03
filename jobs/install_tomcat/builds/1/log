@@ -1,0 +1,54 @@
+Started by user [8mha:////4H4gnmQFvYH3v35HNDxyJ+XMFb9qqUl+O6+1IqEziKIWAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZ+/dLi1CL9lJTEouKMTEtzANSk7V7EAAAA[0mDarshan Shivaram
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/install_tomcat
+The recommended git tool is: NONE
+using credential 1bfb625e-1a04-4130-9a0f-edf2aff3b794
+Cloning the remote Git repository
+Cloning repository https://github.com/ddarshi97/tomcat_build_deploy.git
+ > git init /var/lib/jenkins/workspace/install_tomcat # timeout=10
+Fetching upstream changes from https://github.com/ddarshi97/tomcat_build_deploy.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/ddarshi97/tomcat_build_deploy.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ddarshi97/tomcat_build_deploy.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision fc0eb42aef463d419225bf1bc780a6e7cc99426e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fc0eb42aef463d419225bf1bc780a6e7cc99426e # timeout=10
+Commit message: "Update buildep.sh"
+First time build. Skipping changelog.
+[install_tomcat] $ /bin/sh -xe /tmp/jenkins1162061638951716664.sh
++ sh tominst.sh
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+--2022-11-29 12:09:15--  https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz
+Resolving dlcdn.apache.org (dlcdn.apache.org)... 151.101.2.132, 2a04:4e42::644
+Connecting to dlcdn.apache.org (dlcdn.apache.org)|151.101.2.132|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11984522 (11M) [application/x-gzip]
+apache-tomcat-10.0.27.tar.gz: Permission denied
+
+Cannot write to ‘apache-tomcat-10.0.27.tar.gz’ (Success).
+tar (child): apache-tomcat-10.0.27.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+sh: 0: cannot open apache-tomcat-10.0.27/bin/startup.sh: No such file
+change the traffic to all traffic and all IPV4
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+Started at Fri Dec 02 09:01:15 UTC 2022
+Checking build_deploy
+Checking build_deploy_pipeline
+Checking First_Job
+Checking install_tomcat
+Checking jfrog_build_deploy_pipeline
+Checking pipeline_sample
+Checking Second_job
+Checking Webhook_test
+Finished at Fri Dec 02 09:01:15 UTC 2022. 42ms
