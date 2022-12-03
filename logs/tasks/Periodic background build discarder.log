@@ -124,3 +124,23 @@ Offering Second_job to Project Build Discarder
 Processing Webhook_test
 Offering Webhook_test to Project Build Discarder
 Finished at Sat Dec 03 07:09:54 UTC 2022. 2ms
+Started at Sat Dec 03 08:09:54 UTC 2022
+Processing build_deploy
+Offering build_deploy to Project Build Discarder
+Processing build_deploy_pipeline
+Offering build_deploy_pipeline to Project Build Discarder
+Processing First_Job
+Offering First_Job to Project Build Discarder
+Processing install_tomcat
+Offering install_tomcat to Project Build Discarder
+Processing Jenkins_backup
+Offering Jenkins_backup to Project Build Discarder
+Processing jfrog_build_deploy_pipeline
+Offering jfrog_build_deploy_pipeline to Project Build Discarder
+Processing pipeline_sample
+Offering pipeline_sample to Project Build Discarder
+Processing Second_job
+Offering Second_job to Project Build Discarder
+Processing Webhook_test
+Offering Webhook_test to Project Build Discarder
+Finished at Sat Dec 03 08:09:54 UTC 2022. 2ms
